@@ -1,56 +1,498 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/output.css">
     <title>Document</title>
 </head>
+
 <body>
     <!-- navpart start -->
-   <section class="py-7 bg-primary">
-<div class="max-w-container mx-auto">
-    <div class="flex justify-between items-center">
-        <div class="text-white">
-            <img src="asset/logo.png" alt="">
-        </div>
-        <div class="text-white flex items-center gap-x-10">
-            <ul class="gap-x-10 flex items-center text-primarymanu  text-base font-inter font-medium">
-                <li><a href=""> About</a></li>
-                <li><a href="">Career</a></li>
-                <li><a href="">Recordsr</a></li>
-                <li><a href="">Gallery</a></li>
-                <li><a href="">Contact</a></li>        
-            </ul>
-            <a href="" class="py-3 px-5.5 text-sm font-semibold font-inter   bg-primarybtn rounded-[999px] text-primary   " >Get in touch</a>
-        </div>
-    </div>
-</div>
-   </section>
-   <!-- navpart-end  -->
-   <!-- bannerpart start -->
-    <section class="pt-15 pb-25 bg-primary">
-<div class="max-w-container bg-amber-200  mx-auto">
-    <div class="flex items-center justify-between">
-        <div class="w-[60%]">
-          
-        </div>
-        <div class="relative w-[40%]">
-            <img src="asset/boss.png" alt="" class="w-full">
-            <div class="absolute bg-black left-5 w-93 h-22 bottom-5 py-4 px-3 rounded-2xl">
-                <h1 class="text-white text">ICC 1 ALL-ROUNDER</h1>
-                <p class="text-white">Top-ranked in Tests, ODIs & T20Is at once (2015)</p>
+    <section class="py-7 bg-primary  fixed w-full top-0 left-0 z-10">
+        <div class="max-w-85 mx-auto lg:max-w-container lg:mx-auto">
+            <div class=" flex justify-between  lg:flex lg:justify-between lg:items-center ">
+                <div class="text-white">
+                    <img src="asset/logo.png" alt="" class="w-30 lg:w-50">
+                </div>
+                <div class="text-white  items-center gap-x-10 lg:flex">
+                    <ul
+                        class="lg:gap-x-10 lg:flex lg:items-center text-primarymanu  text-base font-inter font-medium hidden">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Career</a></li>
+                        <li><a href="#">Recordsr</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <a href=""
+                        class="py-3 px-5.5 text-sm font-semibold font-inter bg-primarybtn rounded-[999px] text-primary">Get
+                        in touch</a>
+                </div>
             </div>
         </div>
+    </section>
+    <!-- navpart-end  -->
+    <!-- bannerpart start -->
+    <section class="lg:pt-30 lg:pb-25 pt-25 pb-4 bg-primary">
+        <div class="max-w-85 lg:max-w-container   mx-auto">
+            <div class="lg:flex  lg:justify-between">
+                <div class="lg:w-[60%]">
+                    <p class="text-green-400 lg:text-sm font-semibold py-5">BANGLADESH • ALL-ROUNDER • EST. 2006</p>
+                    <h1 class="lg:text-8xl loading-2 text-white lg:w-134 lg:py-7 font-Bebas w-80 text-5xl ">THE TIGER
+                        WHO DOES IT ALL.</h1>
+                    <p class="lg:text-xl text-primarymanu lg:w-138 font-inter lg:py-6 py-2 text-sm">Left-handed batter.
+                        Slow left-arm orthodox. Two
+                        decades carrying a nation's hopes — and one of the finest all-rounders the modern game has seen.
+                    </p>
+                    <div class="lg:pt-7 pt-3 flex flex-col lg:flex lg:flex-row lg:gap-x-4">
+                        <a href="#"
+                            class="lg:py-4 lg:px-7 mt-6 py-1 px-2 border border-[#21402F] text-white hover:bg-transparent bg-[#F42A41] hover:border-[#21402F] rounded-3xl text-center w-full lg:w-60">Explore
+                            career →</a>
+                        <a href="#"
+                            class="lg:py-4 lg:px-7 mt-6 py-1 px-2 border border-[#21402F] text-white hover:bg-transparent bg-[#F42A41] hover:border-[#21402F] rounded-3xl text-center w-full lg:w-60">View
+                            records</a>
 
+                    </div>
+                </div>
+
+                <div class="relative lg:w-[40%] pt-8">
+                    <img src="asset/boss.png" alt="" class="lg:w-full w-full">
+                    <div
+                        class="absolute bg-black lg:left-5 w-79 lg:w-95 lg:h-22 lg:bottom-8 bottom-4 left-3 py-4 px-3 rounded-2xl">
+                        <h1 class="text-white lg:text-3xl text-xl font-normal font-Bebas">ICC 1 ALL-ROUNDER</h1>
+                        <p class=" lg:text-base text-[12px] text-primarymanu py-1 font-inter">Top-ranked in Tests, ODIs
+                            & T20Is at once (2015)</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- bannerpart end-->
+    <!-- boss milestone start -->
+    <section class="lg:pb-25 pb-16 bg-primary">
+        <div class="max-w-85 lg:max-w-container  mx-auto lg:mx-auto">
+            <div class="flex flex-wrap gap-2 lg:flex lg:justify-between">
+                <!-- card-1  -->
+                <div class="w-[48%]  lg:w-[24%] lg:p-6 p-2  bg-[#0E1F18] shadow-[#0E1F18]  border border-[#0E1F18]">
+                    <h2 class="lg:text-7xl text-[#F4EFE6] font-Bebas font-normal py-3 text-4xl">14,000+</h2>
+                    <p class="text-primarymanu font-inter font-normal lg:text-base text-sm py-3">International runs</p>
+                </div>
+                <!-- card-2  -->
+                <div class="w-[49%]  lg:w-[24%] lg:p-6 p-2  bg-[#0E1F18] shadow-[#0E1F18] border border-[#0E1F18] ">
+                    <h2 class="lg:text-7xl text-[#F4EFE6] font-Bebas font-normal py-3 text-4xl">700+</h2>
+                    <p class="text-primarymanu font-inter font-normal lg:text-base text-sm py-3">International wickets
+                    </p>
+                </div>
+                <!-- card-3  -->
+                <div class="w-[48%]  lg:w-[24%] lg:p-6 p-2  bg-[#0E1F18] shadow-[#0E1F18]  border border-[#0E1F18]">
+                    <h2 class="lg:text-7xl text-[#F4EFE6] font-Bebas font-normal py-3 text-4xl">440+</h2>
+                    <p class="text-primarymanu font-inter font-normal lg:text-base text-sm py-3">International matches
+                    </p>
+                </div>
+                <!-- card-4  -->
+                <div class="w-[48%]  lg:w-[24%] lg:p-6 p-2  bg-[#0E1F18] shadow-[#0E1F18] border border-[#0E1F18] ">
+                    <h2 class="lg:text-7xl text-[#F4EFE6] font-Bebas font-normal py-3 text-4xl">606+</h2>
+                    <p class="text-primarymanu font-inter font-normal lg:text-base text-sm py-3">Runs, 2019 World Cup
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- boss milestone end -->
+
+    <!-- about  section-1 start  -->
+    <section class="py-28 bg-[#0E1F18]">
+        <div class="max-w-85 mx-auto lg:max-w-container  lg:mx-auto ">
+            <div class="lg:flex lg:justify-between lg:gap-x-2">
+                <div class="w[100%] lg:w-[48%]">
+                    <h5 class="text-sm text-[#F42A41] font-semibold font-inter py-0.5">01 — ABOUT</h5>
+                    <h1 class="text-[30px] lg:text-5xl font-Bebas font-normal text-[#F4EFE6] py-0.5 pb-5">FROM MAGURA TO
+                        THE WORLD STAGE</h1>
+                    <div class="pt-4 border border-[#21402F] rounded-3xl">
+                        <!-- table row1  -->
+                        <div class="border-b border-b-[#21402F] pb-5 flex justify-between px-9">
+                            <h3 class="text-[11px] lg:text-sm text-primarymanu font-semibold font-inter">BORN</h3>
+                            <h2 class="text-[13px]
+            lg:flex lg:text-base font-medium font-inter text-[#F4EFE6] lg:gap-x-2">24 March 1987 · Magura<span
+                                    class="hidden lg:block text-base font-medium font-inter text-[#F4EFE6]">,Bangladesh</span>
+                            </h2>
+                        </div>
+                        <!-- table row2  -->
+                        <div class="border-b border-b-[#21402F] lg:py-4 py-4 flex justify-between px-9">
+                            <h3 class="text-[11px] lg:text-sm text-primarymanu font-semibold font-inter">ROLE</h3>
+                            <h2 class="text-[13px]
+            lg:flex lg:text-base font-medium font-inter text-[#F4EFE6] lg:gap-x-2">All-rounder</h2>
+                        </div>
+                        <!-- table row-3 -->
+                        <div class="border-b border-b-[#21402F] lg:py-4 py-4 flex justify-between px-9">
+                            <h3 class="text-[11px] lg:text-sm text-primarymanu font-semibold font-inter">BATTING</h3>
+                            <h2 class="text-[13px]
+            lg:flex lg:text-base font-medium font-inter text-[#F4EFE6] lg:gap-x-2">Left-handed</h2>
+                        </div>
+                        <!-- table row-4 -->
+                        <div class="border-b border-b-[#21402F] lg:py-4 py-4 flex justify-between px-9">
+                            <h3 class="text-[11px] lg:text-sm text-primarymanu font-semibold font-inter">BOWLING</h3>
+                            <h2 class="text-[13px]
+            lg:flex lg:text-base font-medium font-inter text-[#F4EFE6] lg:gap-x-2">Slow left-arm orthodox</h2>
+                        </div>
+                        <!-- table row-5 -->
+                        <div class=" lg:py-4 py-4 flex justify-between px-9">
+                            <h3 class="text-[11px] lg:text-sm text-primarymanu font-semibold font-inter">DEBUT</h3>
+                            <h2 class="text-[13px]
+            lg:flex lg:text-base font-medium font-inter text-[#F4EFE6] lg:gap-x-2">ODI & T20I 2006 · Test 2007</h2>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="lg:w-[48%]  pt-8">
+                    <h2 class="lg:text-5xl font-normal font-Bebas 
+        text-[rgb(31,181,127)] lg:w-150 w-full text-[25px] pb-8">
+                        Bat. Ball. Field. Captaincy. A cricketer for every situation.
+                    </h2>
+                    <p class="text-base font-inter text-primarymanu lg:pb-5 lg:text-[18px]">Shakib Al Hasan grew up
+                        playing tape-ball cricket in Magura before rising through Bangladesh's age-group sides. He made
+                        his international debut in 2006 and quickly became the backbone of the national team in all
+                        three formats.</p>
+                    <p class="text-primarymanu font-Bebas lg:text-[18px] lg:pb-7 hidden lg:block">Equally capable of
+                        anchoring an innings and running through a batting line-up, he spent long stretches as the ICC's
+                        top-ranked ODI all-rounder, captained his country, and won franchise titles across the globe —
+                        including two IPL trophies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about  section-1 end -->
+    <!-- about  section-2 start -->
+    <section class="bg-[rgb(7,17,13)] py-27.5">
+        <div class="max-w-85 lg:max-w-container  mx-auto">
+            <div class="lg:flex lg:justify-between">
+                <div>
+                    <h5 class="lg:text-sm text-[11px] text-[#F42A41] font-semibold font-inter py-0.5">02 — ABOUT</h5>
+                    <h1 class="text-[30px] lg:text-5xl font-Bebas font-normal text-[#F4EFE6] py-0.5 pb-5">NUMBERS ACROSS
+                        FORMATS</h1>
+                </div>
+                <p class="text-primarymanu pt-7 hidden lg:block ">Key moments from debut to legend.</p>
+            </div>
+            <div class="lg:flex  lg:justify-between  lg:gap-y-6 gap-x-3">
+                <!-- card-1  -->
+                <div class="lg:w-[16%] w-full lg-p-2 p-3 text-white border-t border-t-green-950 mt-5 lg:mt-0">
+                    <h1 class="text-4xl text-[rgb(31,181,127)] font-normal font-Bebas py-2">2006</h1>
+                    <h3 class="text-[18px] font-semibold font-inter text-[#F4EFE6] py-2">International debut</h3>
+                    <h5 class="font-inter text-[14px] text-primarymanu font-normal py-2">Debuts in ODIs and T20Is
+                        against Zimbabwe, aged 19.</h5>
+                </div><!-- card-2  -->
+                <div class="lg:w-[16%] w-full lg-p-2 p-3 text-white border-t border-t-green-950 mt-5 lg:mt-0">
+                    <h1 class="text-4xl text-[rgb(31,181,127)] font-normal font-Bebas py-2">2007</h1>
+                    <h3 class="text-[18px] font-semibold font-inter text-[#F4EFE6] py-2">Test cap & first World Cup</h3>
+                    <h5 class="font-inter text-[14px] text-primarymanu font-normal py-2">Earns his Test cap and features
+                        in Bangladesh's famous 2007 World Cup campaign.</h5>
+                </div>
+                <!-- card-3 -->
+                <div class="lg:w-[16%] w-full lg-p-2 p-3 text-white border-t border-t-green-950 mt-5 lg:mt-0">
+                    <h1 class="text-4xl text-[rgb(31,181,127)] font-normal font-Bebas py-2">2009</h1>
+                    <h3 class="text-[18px] font-semibold font-inter text-[#F4EFE6] py-2">Leading the Tigers</h3>
+                    <h5 class="font-inter text-[14px] text-primarymanu font-normal py-2">Takes over the captaincy and
+                        becomes the face of Bangladesh cricket.</h5>
+                </div>
+                <!-- card-4  -->
+                <div class="lg:w-[16%] w-full lg-p-2 p-3 text-white border-t border-t-green-950 mt-5 lg:mt-0">
+                    <h1 class="text-4xl text-[rgb(31,181,127)] font-normal font-Bebas py-2">2012</h1>
+                    <h3 class="text-[18px] font-semibold font-inter text-[#F4EFE6] py-2">IPL champion</h3>
+                    <h5 class="font-inter text-[14px] text-primarymanu font-normal py-2">Lifts the IPL trophy with
+                        Kolkata Knight Riders — and again in 2014.</h5>
+                </div>
+                <!-- card-5  -->
+                <div class="lg:w-[16%] w-full lg-p-2 p-3 text-white border-t border-t-green-950 mt-5 lg:mt-0">
+                    <h1 class="text-4xl text-[rgb(31,181,127)] font-normal font-Bebas py-2">2015</h1>
+                    <h3 class="text-[18px] font-semibold font-inter text-[#F4EFE6] py-2">World No.1 in all formats</h3>
+                    <h5 class="font-inter text-[14px] text-primarymanu font-normal py-2">Simultaneously the ICC's
+                        top-ranked all-rounder in Tests, ODIs and T20Is.</h5>
+                </div>
+                <!-- card-6  -->
+                <div class="lg:w-[16%] w-full lg-p-2 p-3 text-white border-t border-t-green-950 mt-5 lg:mt-0">
+                    <h1 class="text-4xl text-[rgb(31,181,127)] font-normal font-Bebas py-2">2019</h1>
+                    <h3 class="text-[18px] font-semibold font-inter text-[#F4EFE6] py-2">A World Cup for the ages</h3>
+                    <h5 class="font-inter text-[14px] text-primarymanu font-normal py-2">606 runs and 11 wickets — among
+                        the greatest individual World Cups ever.</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about  section-2 end -->
+   <!-- about  section-3 start -->
+    <section class="bg-[#0E1F18] py-30">
+        <div class="max-w-85 mx-auto lg:max-w-container lg:mx-auto">
+            <div class="lg:flex  lg:justify-between ">
+                <div class=" border border-[#21402F]  w-full  lg:w-[30%] rounded-3xl p-10 mt-3">
+                    <!-- table row1  -->
+                    <div class="lg:border-b lg:border-b-[#21402F]  pb-5 lg:flex lg:justify-between lg:items-center">
+                        <h3 class="text-3xl lg:text-4xl text-[#F42A41] font-semibold font-inter"> TEST</h3>
+                        <h2
+                            class="text-[13px]
+             hidden lg:block lg:text-base font-medium font-inter text-[#F4EFE6] lg:gap-x-2 bg-primarymanu py-1 px-2 rounded-2xl">
+                            Career</h2>
+                    </div>
+
+                    <div class="flex lg:block justify-between">
+                        <!-- table row2  -->
+                        <div class="lg:border-b lg:border-b-[#21402F] lg:py-4 py-4 lg:flex lg:justify-between ">
+                            <h3 class="text-[20px] lg:text-sm text-primarymanu font-semibold font-inter">Matches</h3>
+                            <h2 class="text-[12px]
+            lg:flex lg:text-base font-medium font-inter text-[#F4EFE6] lg:gap-x-2">70+</h2>
+                        </div>
+                        <!-- table row-3 -->
+                        <div class="lg:border-b lg:border-b-[#21402F] lg:py-4 py-4 lg:flex lg:justify-between ">
+                            <h3 class="text-[20px] lg:text-sm text-primarymanu font-semibold font-inter">Runs</h3>
+
+                            <h2 class="text-[12px]
+            lg:flex lg:text-base font-medium font-inter text-[#F4EFE6] lg:gap-x-2">4,600+</h2>
+                        </div>
+                        <!-- table row-4 -->
+                        <div class="lg:border-b lg:border-b-[#21402F] lg:py-4 py-4 lg:flex lg:justify-between ">
+                            <h3 class="text-[20px] lg:text-sm text-primarymanu font-semibold font-inter">Wickets</h3>
+                            <h2 class="text-[12px]
+            lg:flex lg:text-base font-medium font-inter text-[#F4EFE6] lg:gap-x-2">240+</h2>
+                        </div>
+                        <!-- table row-5 -->
+                        <div class=" lg:py-4 py-4 lg:flex lg:justify-between hidden  ">
+                            <h3 class="text-[11px] lg:text-sm text-primarymanu font-semibold font-inter">5-wicket hauls
+                            </h3>
+                            <h2 class="text-[13px]
+            lg:flex lg:text-base font-medium font-inter text-[#F4EFE6] lg:gap-x-2">19+</h2>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- card-2 -->
+                 <div class=" border border-[#21402F]  w-full  lg:w-[30%] rounded-3xl p-10 mt-3">
+                    <!-- table row1  -->
+                    <div class="lg:border-b lg:border-b-[#21402F]  pb-5 lg:flex lg:justify-between lg:items-center">
+                        <h3 class="text-3xl lg:text-4xl text-[#F42A41] font-semibold font-inter"> TEST</h3>
+                        <h2
+                            class="text-[13px]
+             hidden lg:block lg:text-base font-medium font-inter text-[#F4EFE6] lg:gap-x-2 bg-primarymanu py-1 px-2 rounded-2xl">
+                            Career</h2>
+                    </div>
+
+                    <div class="flex lg:block justify-between">
+                        <!-- table row2  -->
+                        <div class="lg:border-b lg:border-b-[#21402F] lg:py-4 py-4 lg:flex lg:justify-between ">
+                            <h3 class="text-[20px] lg:text-sm text-primarymanu font-semibold font-inter">Matches</h3>
+                            <h2 class="text-[12px]
+            lg:flex lg:text-base font-medium font-inter text-[#F4EFE6] lg:gap-x-2">70+</h2>
+                        </div>
+                        <!-- table row-3 -->
+                        <div class="lg:border-b lg:border-b-[#21402F] lg:py-4 py-4 lg:flex lg:justify-between ">
+                            <h3 class="text-[20px] lg:text-sm text-primarymanu font-semibold font-inter">Runs</h3>
+
+                            <h2 class="text-[12px]
+            lg:flex lg:text-base font-medium font-inter text-[#F4EFE6] lg:gap-x-2">4,600+</h2>
+                        </div>
+                        <!-- table row-4 -->
+                        <div class="lg:border-b lg:border-b-[#21402F] lg:py-4 py-4 lg:flex lg:justify-between ">
+                            <h3 class="text-[20px] lg:text-sm text-primarymanu font-semibold font-inter">Wickets</h3>
+                            <h2 class="text-[12px]
+            lg:flex lg:text-base font-medium font-inter text-[#F4EFE6] lg:gap-x-2">240+</h2>
+                        </div>
+                        <!-- table row-5 -->
+                        <div class=" lg:py-4 py-4 lg:flex lg:justify-between hidden  ">
+                            <h3 class="text-[11px] lg:text-sm text-primarymanu font-semibold font-inter">5-wicket hauls
+                            </h3>
+                            <h2 class="text-[13px]
+            lg:flex lg:text-base font-medium font-inter text-[#F4EFE6] lg:gap-x-2">19+</h2>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- card-3 -->
+                 <div class=" border border-[#21402F]  w-full  lg:w-[30%] rounded-3xl p-10 mt-3">
+                    <!-- table row1  -->
+                    <div class="lg:border-b lg:border-b-[#21402F]  pb-5 lg:flex lg:justify-between lg:items-center">
+                        <h3 class="text-3xl lg:text-4xl text-[#F42A41] font-semibold font-inter"> TEST</h3>
+                        <h2
+                            class="text-[13px]
+             hidden lg:block lg:text-base font-medium font-inter text-[#F4EFE6] lg:gap-x-2 bg-primarymanu py-1 px-2 rounded-2xl">
+                            Career</h2>
+                    </div>
+
+                    <div class="flex lg:block justify-between">
+                        <!-- table row2  -->
+                        <div class="lg:border-b lg:border-b-[#21402F] lg:py-4 py-4 lg:flex lg:justify-between ">
+                            <h3 class="text-[20px] lg:text-sm text-primarymanu font-semibold font-inter">Matches</h3>
+                            <h2 class="text-[12px]
+            lg:flex lg:text-base font-medium font-inter text-[#F4EFE6] lg:gap-x-2">70+</h2>
+                        </div>
+                        <!-- table row-3 -->
+                        <div class="lg:border-b lg:border-b-[#21402F] lg:py-4 py-4 lg:flex lg:justify-between ">
+                            <h3 class="text-[20px] lg:text-sm text-primarymanu font-semibold font-inter">Runs</h3>
+
+                            <h2 class="text-[12px]
+            lg:flex lg:text-base font-medium font-inter text-[#F4EFE6] lg:gap-x-2">4,600+</h2>
+                        </div>
+                        <!-- table row-4 -->
+                        <div class="lg:border-b lg:border-b-[#21402F] lg:py-4 py-4 lg:flex lg:justify-between ">
+                            <h3 class="text-[20px] lg:text-sm text-primarymanu font-semibold font-inter">Wickets</h3>
+                            <h2 class="text-[12px]
+            lg:flex lg:text-base font-medium font-inter text-[#F4EFE6] lg:gap-x-2">240+</h2>
+                        </div>
+                        <!-- table row-5 -->
+                        <div class=" lg:py-4 py-4 lg:flex lg:justify-between hidden  ">
+                            <h3 class="text-[11px] lg:text-sm text-primarymanu font-semibold font-inter">5-wicket hauls
+                            </h3>
+                            <h2 class="text-[13px]
+            lg:flex lg:text-base font-medium font-inter text-[#F4EFE6] lg:gap-x-2">19+</h2>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+
+    </section>
+    <!-- about  section-4 start -->
+     <section class="py-28 bg-[rgb(7,17,13)]">
+         <div class="max-w-85 lg:max-w-container mx-auto">
+            <div class="py-4">
+              <p class="text-[#F42A41] text-sm font-inter font-semibold py-2">  04 — HONOURS</p>
+              <h2 class="lg:text-5xl text-4xl text-[#F4EFE6] font-normal font-Bebas">MILESTONES & SILVERWARE</h2>
+            </div>
+            <!-- card -->
+             <div class="lg:flex lg:flex-wrap lg:gap-6">
+                <!-- card-1 -->
+                <div class="flex  gap-2 lg:w-[32%] p-4 bg-[#21402F] border border-green-900 rounded-3xl  mt-5">
+                    <div class="w-15 h-15 bg-[#006A4E] p-4 relative rounded-2xl">
+                    <img src="asset/1.png" alt="" class="absolute top-[27%]  ">
+                </div>
+                <div class="">
+                    <h5 class="text-xl font-inter font-semibold text-[#F4EFE6]">IPL Champion ×2</h5>
+                    <p class="text-primarymanu text-[14px] font-normal font-inter">Title winner with Kolkata Knight Riders in 2012 and 2014.</p>
+                </div>
+                </div>
+                <!-- card-2 -->
+                <div class="flex  gap-2 lg:w-[32%] p-4 bg-[#21402F] border border-green-900 rounded-3xl  mt-5">
+                    <div class="w-15 h-15 bg-[#006A4E] p-4 relative rounded-2xl">
+                    <img src="asset/2.png" alt="" class="absolute top-[27%]  ">
+                </div>
+                <div class="">
+                    <h5 class="text-xl font-inter font-semibold text-[#F4EFE6]">ICC No.1 All-Rounder</h5>
+                    <p class="text-primarymanu text-[14px] font-normal font-inter">Long-time top-ranked ODI all-rounder.</p>
+                </div>
+                </div>
+                <!-- card-3 -->
+                <div class="flex  gap-2 lg:w-[32%] p-4 bg-[#21402F] border border-green-900 rounded-3xl mt-5 ">
+                    <div class="w-15 h-15 bg-[#006A4E] p-4 relative rounded-2xl">
+                    <img src="asset/3.png" alt="" class="absolute top-[27%]  ">
+                </div>
+                <div class="">
+                    <h5 class="text-xl font-inter font-semibold text-[#F4EFE6]">National Captain</h5>
+                    <p class="text-primarymanu text-[14px] font-normal font-inter">Led Bangladesh across formats.</p>
+                </div>
+                </div>
+                <!-- card-4 -->
+                <div class="flex  gap-2 lg:w-[32%] p-4 bg-[#21402F] border border-green-900 rounded-3xl  mt-5">
+                    <div class="w-15 h-15 bg-[#006A4E] p-4 relative rounded-2xl">
+                    <img src="asset/4.png" alt="" class="absolute top-[27%]  ">
+                </div>
+               
+                <div class="">
+                    <h5 class="text-xl font-inter font-semibold text-[#F4EFE6]">7,000 runs & 300 wickets</h5>
+                    <p class="text-primarymanu text-[14px] font-normal font-inter">A rare ODI double.</p>
+                </div>
+                </div>
+                 <!-- card-5 -->
+                <div class="flex  gap-2 lg:w-[32%] p-4 bg-[#21402F] border border-green-900 rounded-3xl mt-5 ">
+                    <div class="w-15 h-15 bg-[#006A4E] p-4 relative rounded-2xl">
+                    <img src="asset/5.png" alt="" class="absolute top-[27%]  ">
+                </div>
+                <div class="">
+                    <h5 class="text-xl font-inter font-semibold text-[#F4EFE6]">Global T20 Star</h5>
+                    <p class="text-primarymanu text-[14px] font-normal font-inter">Franchise leagues around the world.</p>
+                </div>
+                </div> 
+                <!-- card-6 -->
+                <div class="flex  gap-2 lg:w-[32%] p-4 bg-[#21402F] border border-green-900 rounded-3xl  mt-5">
+                    <div class="w-15 h-15 bg-[#006A4E] p-4 relative rounded-2xl">
+                    <img src="asset/6.png" alt="" class="absolute top-[27%]  ">
+                </div>
+                <div class="">
+                    <h5 class="text-xl font-inter font-semibold text-[#F4EFE6]">2019 World Cup</h5>
+                    <p class="text-primarymanu text-[14px] font-normal font-inter">600+ runs and 10+ wickets.</p>
+                </div>
+                </div>
+                
+             </div>
+            <!-- card -->
+         </div>
+     </section>
+     <!-- about  section-4 end -->
+
+     <!-- moments section start -->
+      <section class="bg-[#0E1F18] py-28">
+          <div class="max-w-85 lg:max-w-container mx-auto">
+             <div class="py-4">
+              <p class="text-[#F42A41] text-sm font-inter font-semibold py-2">  05 — GALLERY</p>
+              <h2 class="lg:text-5xl text-4xl text-[#F4EFE6] font-normal font-Bebas">MOMENTS IN FRAME</h2>
+            </div>
+            <div class="flex justify-between">
+            <div class="hidden lg:block w-[32%]">
+                <img class="w-full" src="asset/group1.png" alt="shakib photo">
+            </div>
+            <div class="lg:w-[32%] ">
+                <img class="w-full" src="asset/group-2.png" alt="shakib photo">
+                <img class="lg:w-full w-85 lg:mt-5 mt-2 hidden lg:block" src="asset/group3.png" alt="shakib photo">
+            </div>
+            <div class="lg:w-[32%] ">
+                <img class="lg:w-full hidden lg:block" src="asset/group4.png" alt="shakib photo">
+            </div>
+          </div>
+          </div>
+          
+      </section>
+      <!-- moment section end -->
+<!-- media-section-start -->
+ <section class="pt-28 bg-[rgb(7,17,13)] ">
+    <div class="max-w-85 lg:max-w-container mx-auto py-20 bg-[#006A4E] rounded-4xl">
+        <div class="">
+            <p class="text-[#F42A41] text-sm font-inter font-semibold py-2 text-center">  05 — GALLERY</p>
+            <h2 class="mx-auto text-center lg:text-6xl font-medium font-inter text-[#F4EFE6] lg:w-220 py-2 w-80 text-4xl">FOR MEDIA, SPONSORSHIP & APPEARANCES</h2>
+            <p class="lg:text-[18px]  font-normal font-inter lg:w-150 mx-auto text-center text-[#F4EFE6] w-80 text-[15px]">Interviews, brand partnerships, coaching clinics and events — reach out to the management team.</p>
+            <!-- search  -->
+             <div class="hidden lg:block w-full lg:w-200 mx-auto px-2 py-3 relative  gap-x-px  "> 
+             <input type="search" class="lg:w-200 w-full border-black border  bg-black py-3 lg:py-8 rounded-full text-primarymanu pl-6 font-[18px] font-inter " placeholder="your@email.com">
+             
+             <a href="#" class="bg-[#F42A41] lg:w-50 lg:h-16 py-3 pt-5  px-27 lg:px-7 rounded-[999px] lg:absolute  lg:right-0  lg:top-1/2 lg:-translate-y-1/2 text-[#F4EFE6] text-base font-semibold font-inter text-center  ">Send enquiry</a>
+            
+            </div> 
+            
+           
+            <!-- search  -->
+        </div>
+        
     </div>
-</div> 
-</section>
-   <!-- bannerpart end-->
-
-
-
-
-
+    <!-- footer section  -->
+    <div class="border-t border-t-[#21402F] mt-25">
+        <div class="max-w-85 lg:max-w-container mx-auto py-9">
+            <div class="lg:flex lg:justify-between lg:items-center ">
+                <h4 class="text-[#F4EFE6] text-2xl font-normal font-inter text-center py-2">SHAKIB AL HASAN · 75</h4>
+                <h5 class="text-primarymanu text-sm font-normal font-inter text-center py-2">Fan-made portfolio concept · Not an official site</h5>
+                <ul class="lg:flex  lg:gap-x-5 flex gap-x-5 justify-center py-2">
+                    <li class="text-primarymanu text-sm font-medium font-inter">Instagram</li>
+                    <li class="text-primarymanu text-sm font-medium font-inter">Facebook</li>
+                    <li class="text-primarymanu text-sm font-medium font-inter">x</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--footer section-->
+ </section>
+<!-- media-section-end-->
+      
 </body>
+
 </html>
